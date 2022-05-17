@@ -17,6 +17,7 @@ namespace KingS_Dialer
             _company = Company;
             _phoneNumber = PhoneNumber;
             _phoneType = PhoneType;
+
         }
         //Home numbers have no such rule and should not have any additional prefix.
         public string Dial(string Company, string PhoneNumber, string PhoneType)
