@@ -29,9 +29,11 @@ namespace KingS_Dialer
         {
            for (int i = 0; i < callList.Length; i++)
            {
-            Console.WriteLine(callList[].Dial);
+            Console.WriteLine(callList[i]);
+                Console.WriteLine(); 
            }
 
+           
 
         }
 
