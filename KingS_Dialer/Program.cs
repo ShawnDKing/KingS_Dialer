@@ -6,7 +6,7 @@ namespace KingS_Dialer
     {
         static void Main(string[] args)
         {
-            //array of object Phone[]
+            //array of object Phone[] to load cellphone and homephone
             Phone[] callList = new Phone[10];
             callList[0] = new HomePhone("Computest", "(303) 985-5060", "1");
             callList[1] = new CellPhone("Curtis Manufacturing", "(603) 532-4123", "2");

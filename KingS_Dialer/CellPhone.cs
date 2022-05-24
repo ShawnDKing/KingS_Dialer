@@ -17,7 +17,7 @@ namespace KingS_Dialer
         {
             {
                //what is being pushed up to the phone - going back and fixing the holes/redundancies
-                    return _company + " is dialing using 1+ " + _phoneNumber;
+                    return _company + " is dialing using 1+" + _phoneNumber;
             } 
             
         }

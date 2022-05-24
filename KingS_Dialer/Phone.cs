@@ -25,11 +25,11 @@ namespace KingS_Dialer
         {
             if (_phoneType == "2")
             {
-                return _company + " is dialing using 1 + " + _phoneNumber;
+                return _company + " is dialing using 1+" + _phoneNumber;
             }
             else if (_phoneType == "1")
             {
-                return _company + "is dialing using " + _phoneNumber;
+                return _company + " is dialing using " + _phoneNumber;
             } return Dial();
             // I need to go back through and figure where everything is passing to and coming from
         }
